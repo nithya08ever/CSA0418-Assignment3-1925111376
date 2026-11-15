@@ -1,0 +1,24 @@
+56ce08387000-56ce08388000 r--p 00000000 00:45 1407374885805560           /mnt/c/Users/nithy/Desktop/CSA04-192511376-Assignment3/Task03_Segmentation/memory_segments
+56ce08388000-56ce08389000 r-xp 00001000 00:45 1407374885805560           /mnt/c/Users/nithy/Desktop/CSA04-192511376-Assignment3/Task03_Segmentation/memory_segments
+56ce08389000-56ce0838a000 r--p 00002000 00:45 1407374885805560           /mnt/c/Users/nithy/Desktop/CSA04-192511376-Assignment3/Task03_Segmentation/memory_segments
+56ce0838a000-56ce0838b000 r--p 00002000 00:45 1407374885805560           /mnt/c/Users/nithy/Desktop/CSA04-192511376-Assignment3/Task03_Segmentation/memory_segments
+56ce0838b000-56ce0838c000 rw-p 00003000 00:45 1407374885805560           /mnt/c/Users/nithy/Desktop/CSA04-192511376-Assignment3/Task03_Segmentation/memory_segments
+56ce0f307000-56ce0f328000 rw-p 00000000 00:00 0                          [heap]
+7dd380000000-7dd380028000 r--p 00000000 08:30 13647                      /usr/lib/x86_64-linux-gnu/libc.so.6
+7dd380028000-7dd3801c0000 r-xp 00028000 08:30 13647                      /usr/lib/x86_64-linux-gnu/libc.so.6
+7dd3801c0000-7dd38020e000 r--p 001c0000 08:30 13647                      /usr/lib/x86_64-linux-gnu/libc.so.6
+7dd38020e000-7dd380212000 r--p 0020e000 08:30 13647                      /usr/lib/x86_64-linux-gnu/libc.so.6
+7dd380212000-7dd380214000 rw-p 00212000 08:30 13647                      /usr/lib/x86_64-linux-gnu/libc.so.6
+7dd380214000-7dd380221000 rw-p 00000000 00:00 0 
+7dd38034d000-7dd380350000 rw-p 00000000 00:00 0 
+7dd380355000-7dd380357000 rw-p 00000000 00:00 0 
+7dd380357000-7dd38035b000 r--p 00000000 00:00 0                          [vvar]
+7dd38035b000-7dd38035d000 r--p 00000000 00:00 0                          [vvar_vclock]
+7dd38035d000-7dd38035f000 r-xp 00000000 00:00 0                          [vdso]
+7dd38035f000-7dd380360000 r--p 00000000 08:30 13644                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7dd380360000-7dd38038f000 r-xp 00001000 08:30 13644                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7dd38038f000-7dd38039a000 r--p 00030000 08:30 13644                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7dd38039a000-7dd38039c000 r--p 0003b000 08:30 13644                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7dd38039c000-7dd38039d000 rw-p 0003d000 08:30 13644                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7dd38039d000-7dd38039e000 rw-p 00000000 00:00 0 
+7ffeff156000-7ffeff177000 rw-p 00000000 00:00 0                          [stack]

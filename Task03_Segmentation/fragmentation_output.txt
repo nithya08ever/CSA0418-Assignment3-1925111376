@@ -1,0 +1,4 @@
+Total free memory: 1000 KB
+Largest free block: 300 KB
+Requested segment: 400 KB
+Allocation fails due to external fragmentation

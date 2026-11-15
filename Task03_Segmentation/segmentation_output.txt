@@ -1,0 +1,10 @@
+SEGMENTATION ADDRESS TRANSLATION
+
+Code: segment 0 offset 0 -> physical address 1000
+Code: segment 0 offset 100 -> physical address 1100
+Code: segment 0 offset 399 -> physical address 1399
+Code: offset 400 exceeds limit 400 : SEGMENTATION FAULT
+Data: segment 1 offset 250 -> physical address 5250
+Data: segment 1 offset 599 -> physical address 5599
+Heap: offset 300 exceeds limit 300 : SEGMENTATION FAULT
+Stack: segment 3 offset 499 -> physical address 12499
