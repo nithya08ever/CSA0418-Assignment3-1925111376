@@ -1,0 +1,3 @@
+FIFO: 2.187 ms for 100000 references; faults=84084
+LRU: 3.924 ms for 100000 references; faults=84020
+Optimal: 0.610 ms for 2000 references; faults=1136
