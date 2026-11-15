@@ -1,0 +1,24 @@
+651a83683000-651a83684000 r--p 00000000 00:45 1970324839226736           /mnt/c/Users/nithy/Desktop/CSA04-192511376-Assignment3/Task01_Linking_Loading/map_demo
+651a83684000-651a83685000 r-xp 00001000 00:45 1970324839226736           /mnt/c/Users/nithy/Desktop/CSA04-192511376-Assignment3/Task01_Linking_Loading/map_demo
+651a83685000-651a83686000 r--p 00002000 00:45 1970324839226736           /mnt/c/Users/nithy/Desktop/CSA04-192511376-Assignment3/Task01_Linking_Loading/map_demo
+651a83686000-651a83687000 r--p 00002000 00:45 1970324839226736           /mnt/c/Users/nithy/Desktop/CSA04-192511376-Assignment3/Task01_Linking_Loading/map_demo
+651a83687000-651a83688000 rw-p 00003000 00:45 1970324839226736           /mnt/c/Users/nithy/Desktop/CSA04-192511376-Assignment3/Task01_Linking_Loading/map_demo
+651a98e14000-651a98e35000 rw-p 00000000 00:00 0                          [heap]
+7a1a21c00000-7a1a21c28000 r--p 00000000 08:30 13647                      /usr/lib/x86_64-linux-gnu/libc.so.6
+7a1a21c28000-7a1a21dc0000 r-xp 00028000 08:30 13647                      /usr/lib/x86_64-linux-gnu/libc.so.6
+7a1a21dc0000-7a1a21e0e000 r--p 001c0000 08:30 13647                      /usr/lib/x86_64-linux-gnu/libc.so.6
+7a1a21e0e000-7a1a21e12000 r--p 0020e000 08:30 13647                      /usr/lib/x86_64-linux-gnu/libc.so.6
+7a1a21e12000-7a1a21e14000 rw-p 00212000 08:30 13647                      /usr/lib/x86_64-linux-gnu/libc.so.6
+7a1a21e14000-7a1a21e21000 rw-p 00000000 00:00 0 
+7a1a21fcc000-7a1a21fcf000 rw-p 00000000 00:00 0 
+7a1a21fd4000-7a1a21fd6000 rw-p 00000000 00:00 0 
+7a1a21fd6000-7a1a21fda000 r--p 00000000 00:00 0                          [vvar]
+7a1a21fda000-7a1a21fdc000 r--p 00000000 00:00 0                          [vvar_vclock]
+7a1a21fdc000-7a1a21fde000 r-xp 00000000 00:00 0                          [vdso]
+7a1a21fde000-7a1a21fdf000 r--p 00000000 08:30 13644                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7a1a21fdf000-7a1a2200e000 r-xp 00001000 08:30 13644                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7a1a2200e000-7a1a22019000 r--p 00030000 08:30 13644                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7a1a22019000-7a1a2201b000 r--p 0003b000 08:30 13644                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7a1a2201b000-7a1a2201c000 rw-p 0003d000 08:30 13644                      /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7a1a2201c000-7a1a2201d000 rw-p 00000000 00:00 0 
+7ffe54f37000-7ffe54f58000 rw-p 00000000 00:00 0                          [stack]
