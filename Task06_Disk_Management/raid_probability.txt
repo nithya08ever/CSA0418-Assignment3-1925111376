@@ -1,0 +1,5 @@
+Assumed annual disk failure probability: 2.00%
+Assumed rebuild period: 1 day
+Approximate RAID 1 rebuild-window risk: 0.027671%
+Approximate RAID 5 rebuild-window risk: 0.027671%
+Note: Simplified independent-failure model; not a full reliability model.

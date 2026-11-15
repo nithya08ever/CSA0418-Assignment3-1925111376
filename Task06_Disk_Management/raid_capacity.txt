@@ -1,0 +1,15 @@
+RAID CAPACITY CALCULATION
+Number of disks = 6
+Capacity per disk = 4 TB
+Raw capacity = 6 x 4 = 24 TB
+
+RAID 0 = 6 x 4 = 24 TB
+RAID 1 = 1 x 4 = 4 TB (six-way mirroring assumption)
+RAID 5 = (6 - 1) x 4 = 20 TB
+RAID 10 = (6 / 2) x 4 = 12 TB
+RAID 6 = (6 - 2) x 4 = 16 TB
+
+Recommendation: RAID 10 for a hospital records server when
+performance and predictable recovery are priorities. RAID 6
+is an alternative when greater usable capacity and two-disk
+failure tolerance are more important.

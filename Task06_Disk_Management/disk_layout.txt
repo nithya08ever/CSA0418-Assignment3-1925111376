@@ -1,0 +1,6 @@
+NAME   SIZE TYPE FSTYPE MOUNTPOINTS
+sda  356.9M disk ext4   
+sdb  159.4M disk ext4   
+sdc      2G disk swap   [SWAP]
+sdd      1T disk ext4   /mnt/wslg/distro
+                        /

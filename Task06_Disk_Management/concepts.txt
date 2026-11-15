@@ -1,0 +1,35 @@
+DISK MANAGEMENT CONCEPTS
+
+1. Low-level formatting:
+Prepares the physical disk sectors for storage.
+
+2. Partitioning:
+Divides a disk into logical regions.
+
+3. Logical formatting:
+Creates a file system such as ext4 or NTFS on a partition.
+
+4. Boot block:
+Contains the initial code or information used to begin the boot process.
+The firmware starts the bootloader, which loads the operating system kernel.
+
+5. Bad blocks:
+The operating system or disk firmware identifies unusable sectors and
+avoids allocating data to them. Modern drives may remap defective sectors.
+
+6. Swap:
+Swap provides backing storage for memory pages. Its size should be selected
+according to workload and memory requirements. A separate fast device can
+reduce contention; a swap file is easier to resize and manage.
+
+7. RAID:
+RAID 0 uses striping without redundancy.
+RAID 1 uses mirroring.
+RAID 5 uses distributed parity and tolerates one disk failure.
+RAID 10 combines mirroring and striping.
+RAID 6 uses dual parity and tolerates two disk failures.
+
+8. Recommendation:
+RAID 10 is suitable when performance and recovery are priorities.
+RAID 6 is a strong alternative when capacity and two-disk fault tolerance
+are priorities. RAID is not a replacement for backups.
