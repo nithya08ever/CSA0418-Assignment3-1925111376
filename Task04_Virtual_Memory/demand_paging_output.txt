@@ -1,0 +1,4 @@
+Allocated memory: 64 MB
+System page size: 4096 bytes
+Minor page faults: 16390
+Major page faults: 0

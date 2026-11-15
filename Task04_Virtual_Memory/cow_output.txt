@@ -1,0 +1,2 @@
+Child minor faults after writing: 8192
+Parent memory remains unchanged: 1

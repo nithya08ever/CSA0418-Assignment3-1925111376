@@ -1,0 +1,5 @@
+EFFECTIVE ACCESS TIME
+Fault rate 1 in 1000: 8100.00 ns
+Fault rate 1 in 100000: 180.00 ns
+Fault rate 1 in 1000000: 108.00 ns
+Maximum fault rate for 10% slowdown: 0.0000012500

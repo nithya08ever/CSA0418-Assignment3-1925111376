@@ -1,0 +1,2 @@
+Sequential access: minor faults=16383, major faults=0, checksum=16384
+Random access: minor faults=16383, major faults=0, checksum=16384
