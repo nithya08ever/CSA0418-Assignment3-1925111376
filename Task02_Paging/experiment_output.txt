@@ -1,0 +1,21 @@
+INTERNAL FRAGMENTATION
+Page size 1024 bytes: waste 51053 bytes (0.02%)
+Page size 4096 bytes: waste 188269 bytes (0.07%)
+Page size 2097152 bytes: waste 105320301 bytes (26.71%)
+
+TLB EFFECTIVE ACCESS TIME
+Without TLB: 200.00 ns
+Hit ratio 80%: 130.00 ns
+Hit ratio 95%: 115.00 ns
+Hit ratio 99%: 111.00 ns
+
+PAGE TABLE SIZE (8-byte entries)
+32-bit address space: 8 MiB
+48-bit address space: 512 GiB
+
+PAGE BOUNDARY TESTS
+Address 0: page 0, offset 0, WITHIN ADDRESS SPACE
+Address 1023: page 0, offset 1023, WITHIN ADDRESS SPACE
+Address 1024: page 1, offset 0, WITHIN ADDRESS SPACE
+Address 8191: page 7, offset 1023, WITHIN ADDRESS SPACE
+Address 8192: page 8, offset 0, INVALID
