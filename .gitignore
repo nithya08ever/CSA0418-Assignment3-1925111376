@@ -1,0 +1,8 @@
+*.o
+*.a
+*.so
+bank_static
+bank_dynamic
+dlopen_demo
+map_demo
+hold_demo
