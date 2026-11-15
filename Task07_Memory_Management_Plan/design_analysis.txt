@@ -1,0 +1,58 @@
+Q7 - MEMORY MANAGEMENT PLAN
+
+STAGE 1: REQUIREMENTS
+The edge device has 2 GB RAM and no swap.
+The real-time control task must not be delayed by page faults.
+The machine-learning task needs 1.5 GB.
+The logging task can tolerate occasional delays.
+The design must leave room for the operating system and future tasks.
+
+STAGE 2: MECHANISM COMPARISON
+1. Contiguous allocation:
+Simple allocation, but can cause external fragmentation and makes expansion difficult.
+
+2. Paging:
+Allocates memory in fixed-size pages and avoids external fragmentation.
+Page faults may occur when pages are not resident.
+
+3. Segmentation:
+Separates logical regions such as code, data and stack.
+It can suffer from external fragmentation.
+
+4. Demand paging:
+Loads pages only when required, saving memory.
+It is suitable for tasks that can tolerate page-fault delays.
+
+DESIGN DECISION:
+Use Linux paging for general memory management.
+Lock and pre-touch the real-time control task's memory using mlock().
+Keep its critical working set resident.
+Allow the machine-learning and logging tasks to use ordinary pageable memory.
+Avoid allocating more memory than the physical RAM budget.
+
+STAGE 3: IMPLEMENTATION
+The memory_lock program measures loop access timing before and after mlock().
+The task_simulation program checks the memory budget for the three tasks
+and calculates the effect of adding a fourth 500 MB task.
+
+STAGE 4: EVALUATION
+The real-time task receives reserved and locked memory to reduce page-fault risk.
+The machine-learning task receives 1.5 GB as required.
+The logging task uses the remaining planned allocation.
+Adding a fourth 500 MB task exceeds the current budget by the amount
+shown in task_simulation_results.txt. The system must reduce other allocations,
+add RAM, or reject/defer the new task.
+
+REMAINING LIMITATION:
+mlock() prevents locked pages from being swapped out, but it does not guarantee
+hard real-time scheduling. Interrupts, CPU contention, kernel activity and
+hardware delays can still affect worst-case response time.
+
+ALTERNATIVE: REAL-TIME OPERATING SYSTEM
+An RTOS without virtual memory can provide more predictable timing because
+there are no demand-paging faults. Memory is statically or explicitly allocated.
+However, the 2 GB physical-memory budget must be divided among all tasks.
+The machine-learning task may need a fixed reserved region, and adding new tasks
+requires careful memory-budget and timing analysis.
+A hard real-time system can offer more predictable worst-case delay, but
+dynamic expansion and memory sharing are less flexible than Linux.

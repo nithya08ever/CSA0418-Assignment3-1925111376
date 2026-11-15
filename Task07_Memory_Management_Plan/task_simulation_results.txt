@@ -1,0 +1,12 @@
+EDGE DEVICE MEMORY SIMULATION
+Total RAM: 2048 MB
+Real-time control: 128 MB (locked)
+Machine learning: 1536 MB
+Logging: 128 MB
+OS reserve: 128 MB
+Total allocated: 1920 MB
+Remaining memory: 128 MB
+
+Adding fourth task of 500 MB...
+New allocation: 2420 MB
+Memory deficit: 372 MB
